@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway');
+
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    background-image: url(https://orig00.deviantart.net/1972/f/2013/322/9/1/pet_background_by_darkrainspirit-d6gogtq.gif);
+}
+
+h1 {
+    margin: 0;
+    background: #FF530D;
+    text-align: center;
+    margin-bottom: 100px;
+    color: white;
+}
+
+fieldset {
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+    box-shadow: 5px 5px 5px rgba(20, 20, 20, 0.6);
+    padding: 20px;
+    background-color: #FFFAD0;
+    border-color: #FF530D;
+}
+
+/*alinhando labels a caixas de texto na vertical*/
+label.alinha {
+    display: inline-block; /*labels são elementos inline. Para que um label obedeça altura e largura, permitindo o alinhamento, devemos convertê-lo em um misto de elemento inline e nível de bloco, com a propriedade display: inline-block*/
+    text-align: right;
+    margin-bottom: 5px;
+    width: 200px;
+}
+
+button {
+    font-family: "Yanone Kaffeesatz";
+    width: 130px;
+    padding: 10px;
+    font-size: 16px;
+    display: inline-block; /*mesmo caso do label*/
+    margin: auto;
+    background-color: #0AC263;
+    color: white;
+    font-size: bold;
+}
+
+p {
+    width: 60%;
+    background: #FFEDE8;
+    color:#A81611;
+    padding: 25px;
+    border: 1px solid #A81611;
+    margin: 20px auto;
+}
+
+/* tabela a ser gerada pelo PHP */
+table{
+    width: 40%;
+    margin: 20px auto;
+    border: 1px solid #484043;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.5);
+}
+th, td{
+    border: 1px solid #484043;
+    padding-left: 10px;
+}
+th{
+    background-color: #101B00;
+    color: #FFF;
+    padding-left: 0;
+}
+tr:nth-child(odd){ /* Apenas para as linhas impares */
+    background: #71A136;
+}
+
+input.largura, select.largura, textarea{
+    width: 99%;
+    height: 30px;
+}
+
+div.direita{
+    float: right;
+    text-align: right;
+}

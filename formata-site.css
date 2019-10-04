@@ -1,0 +1,784 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two');
+
+body{
+	margin:0px;	
+}
+
+#menu ul {
+    padding:0px;
+	margin:0px;	
+    background-color:#FF8C00;
+    list-style:none;
+	font-family:"roboto";
+	height: 50px;
+	background-image:url(./img/logo.png);
+	background-repeat: no-repeat;
+	background-size: 30px ;
+	background-position: 35px center;
+	
+}
+
+a.maior {
+    
+	font-family:"Shadows Into Light Two";
+	font-size:18px;
+	font-weight: bold;
+	
+}
+
+#menu ul li { display: inline; }
+
+#menu ul li a {
+    padding: 14px 30px;
+    display: inline-block;
+	padding-left: 80px;
+
+    /* visual do link */
+    
+    color: #8B4513;
+    text-decoration: none;    
+}
+
+
+ div.container{
+ height: 170px;
+ width: auto%; 
+ padding: 0px;
+ margin: 0px 0px 0px 0;
+		
+	}
+	
+	img.banner{
+		height: auto;
+		width: 100%;		
+		display:block;
+		margin-bottom:10px;
+	}
+	
+	
+ div.verde{
+ float: left;
+ height: 404px;
+ width: 46%; 
+ background: #ADFF2F; 
+ padding: 0px;
+ margin: 0px 0px 0px 0;
+ }
+ 
+ p.propaganda1{
+	text-align: center;
+	font-family:"roboto";
+	color:  #8B4513;
+    margin-top:15px;
+    font-size: 16px;	
+ }
+ 
+ p.propaganda2{
+	text-align: justify;
+	font-family:"roboto";
+	color:  #8B4513;
+    margin:30px;
+	margin-top: 0px;
+    font-size: 14px;	
+    float:right;
+	margin-bottom:10px;
+ }
+ 
+ img.propaganda1{
+	 float:left;
+	 height: 185px;
+	 margin:30px;
+	 margin-left: 80px;
+	 margin-top:10px;
+	 margin-bottom:20px;
+ }
+ 
+ img.propaganda2{
+	 float:right;
+	 height: 185px;
+	 margin:30px;
+	 margin-right: 80px;
+	 margin-left:0px;
+	 margin-top:10px;
+	 margin-bottom:20px;
+ }
+ 
+ p.propaganda3{
+	text-align: center;
+	font-family:"roboto";
+	color:  #8B4513;
+	font-weight:bold;
+	font-size: 14px;	
+ }
+ 
+  a.verde{
+	text-decoration:none;
+	color:  #8B4513;
+		
+ }
+
+ 		
+ div.campanha{
+ height: 195px;
+ width: 51%; 
+ float: right;
+ margin-top: 20px;
+ margin-right: 20px;
+ text-align: justify;
+ font-family:"roboto";
+ color: #8B4513;
+ 
+ }
+ 
+ p.campanha{
+	 float: left;	 	 
+ }
+ p.Campanha{
+	 text-align: center;	 
+ }
+ 
+ p.ircampanha{
+	text-align: center;
+	font-family:"roboto";
+	
+ }
+ 
+ a.campanha{
+	 font-family:"roboto";
+	 color: #A52A2A;
+	 font-weight:bold;
+	 text-decoration:none; 
+ }
+ 
+ img.campanha{
+	float: right;	
+    height: 170px;
+    width: auto; 
+    margin: 15px;	
+	}
+ 
+ div.doacao{
+ height: 170px;
+ width: 25%; 
+ background: #FB3D15; 
+ float: left;
+ margin-top: 20px;
+ margin-left: 20px;
+  }
+ div.doacao a{
+	 display: block;
+	 height: 170px;
+	 width: 100%;
+	 position: relative;
+	 top: -130px;
+	 text-align: center;
+ }
+ 
+ 
+ img.botao{
+	 float:right;
+	 height: 170px;
+ }
+ 
+ 
+  div.contato{
+ height: 170px;
+ width: 25%; 
+ background: #FB9215 ; 
+ float: right;
+ margin-top: 20px;
+ margin-right: 20px;
+ }
+ 
+ 
+ p.contato{
+	text-align: right;
+	color: #fff;
+	font-family:"roboto";
+	text-align: center;
+	position: relative;
+	left: 25px;
+	
+ }
+ div.contato a{
+	  display: block;
+	 height: 170px;
+	 width: 100%;
+	 position: relative;
+	 top: -130px;
+	 text-align: center;
+ }
+ a.contato{
+	 font-family:"roboto";
+	 color: #fff;
+	 font-weight:bold;
+	 text-decoration:none;
+	 
+ }
+
+ 
+ 
+
+/*-------------------------------------trio de bolões------------------------------------------*/
+
+a.trio{
+	text-decoration:none;
+	font-family:"roboto";
+	font-size: 26px;
+	font-family:"roboto";
+    color:  #8B4513;
+	font-weight: bold;
+	
+	
+}
+ 
+ div.blog{
+ text-align:center;
+ height: 380px;
+ width: 31%; 
+ float: left;
+ background: #FFE648; 
+ margin-top: 30px;
+ margin-right: 25px;
+ margin-left:20px;
+ margin-bottom: 50px;
+ border-radius: 15px;
+ font-size: 22px;
+ font-family:"roboto";
+ color:  #8B4513;
+ 
+ }
+ 
+ div.sobrenos{
+ text-align:center;
+ height: 380px;
+ width: 31%; 
+ float: left;
+ background: #A1FF48 ;
+ margin-top: 30px;
+ margin-right: 25px;
+ margin-bottom: 50px;
+ border-radius: 15px;
+ font-size: 22px;
+ font-family:"roboto";
+ color:  #8B4513;
+ }
+ 
+ div.boxmarca{
+ text-align:center;
+ height: 380px;
+ width: 31%; 
+ float: left;
+ background: #FF4848;
+ margin-top: 30px;
+ margin-right: 20px;
+ margin-bottom: 50px;
+ border-radius: 15px;
+ font-size: 22px;
+ font-family:"roboto";
+ color:  #8B4513;
+ 
+ }
+ 
+ img.trio1{	 
+	 height: 180px; 
+ }
+ img.trio2{
+	 height: 170px;	
+margin-bottom:15px;	 
+ }
+ img.trio3{
+	 height: 200px;	 
+ }
+ 
+ /*---------------------------------barra end ---------------------------------------*/
+ div.barraend{
+ height: 40px;
+ width: 100%; 
+ float: left;
+ background: #FF8C00; 
+ margin: 0px;
+ }
+ 
+ p.barraend{
+	text-align: center;
+	font-family:"roboto";
+	color: #8B4513;
+	font-size:14px;	
+ }
+ 
+ a.barraend{
+	 color: #8B4513;
+ }
+ 	
+/*-----------------------------------------MARCAS---------------------------------------------*/
+
+div.menulado{
+ width: 200px;
+ height: 655px; 
+ float: left;
+ background: #f15a24;
+}
+
+
+#menulado ul {
+    padding:0px;
+	margin:0px;	
+	margin-top:20px;
+    list-style:none;
+	font-family:"roboto";
+	height: 40px;
+	
+}
+
+a.marcamaior {    
+	font-family:"roboto";
+	font-size:18px;
+	font-weight: bold;	
+}
+
+#menulado ul li a {
+    padding: 14px 30px;
+	
+    /* visual do link */
+    
+    color: #8B4513;
+    text-decoration: none;   
+}
+
+div.marca{
+	text-align: center;
+	padding:40px;
+	font-family: "roboto";
+	color: #8B4513;
+	
+}
+div.marca2{
+	text-align:center;
+	padding:20px;
+	font-family: "roboto";
+	color: #8B4513;
+	
+}
+img.logopesquisa{
+	height: 27px;
+	float:left;
+	margin-left: 430px;
+	margin-top:15px;
+	
+}
+
+ p.titulo{
+	font-family:"roboto";
+	font-size:20px;
+	font-weight:bold;
+	float: left;
+	margin-left:10px;
+	font-family:"Shadows Into Light Two";
+	
+ }
+ 
+ p.textoexplicativo1{
+    font-family:"roboto";
+	font-size:16px;
+	margin:45px;
+    margin-bottom: 20px;	
+ }
+	
+p.textoexplicativo2{
+    font-family:"roboto";
+	font-size:16px;
+	margin-left:60px;
+    	
+ }	
+ 
+ input.input{
+	background-color: #f7bf84; 
+	width:250px;
+	height: 20px;
+	border-radius: 7px;
+	border-color: #FF8C00;		
+ }
+ 
+ label.informe{
+	 font-size: 18px;
+ }
+	button.marca{
+		height: 26px;
+        background-color: #f15a24;
+		border-radius: 7px;
+		border-color: #f15a24;			
+	}
+	
+	a.resultado{
+		text-decoration: none;
+		font-size: 15px;
+		font-family:"roboto";
+	    color:#fff;
+	}
+	
+ p.textoexplicativo3{
+    font-family:"roboto";
+	font-size:16px;
+	margin:40px;
+    margin-bottom: 20px;	
+ }	
+	
+	/*-----------------------------------------Bloco grande central----------------------------------------*/
+	
+ div.campanha2{
+ height: 450px;
+ width: 99%; 
+ float: left;
+ background: white; 
+ margin-top: 10px;
+ margin-right: 0px;
+ text-align:center;
+ 
+ }
+ div.citright{
+	 float: left;
+	 width: 400px;
+	 text-align: justify;
+	 margin-left:20px;
+	 margin-top:180px;
+	 
+ }
+div.citleft{
+	 float: right;
+	 width: 400px;	 
+	 text-align: justify;
+	 margin-right:20px;
+	 margin-top:180px;
+}
+
+ p.autor{
+	 font-family: "roboto";
+	 font-size: 18px;
+	 text-align:right;
+	 color: #FF8C00;
+ }
+ 
+ p.citacao1{	 
+	 font-family: "roboto";
+	 font-size: 22px;
+	 color: #8B4513;
+	 }
+ p.citacao2{
+	 	 
+	 font-family: "roboto";
+	 font-size: 22px;
+	 color: #8B4513;
+	 }	 
+	 
+
+	img.campanha2{
+		height: 300px;
+		margin-top: 90px;
+		
+	}
+	
+	
+/*-------------------------------doacao-----------------------------------*/	
+	
+	div.alinha, div.doações{
+		height:580px;
+		font-family:"Shadows Into Light Two";
+	}
+	
+	div.doações{
+		margin-top:50px;
+		margin-left:160px;
+	}
+	
+	
+	div.plataforma1{	
+	margin-bottom: 40px;
+	margin-left: 350px;
+	height:110px;
+	width: 400px;
+	background: #FF4848; 
+    box-shadow: 5px 5px 8px #838B83;	
+	text-align: center;
+	
+	}
+	div.plataforma2{	
+	margin-bottom: 40px;
+	margin-left: 350px;
+	height:110px;
+	width: 400px;
+	background: #A1FF48 ;
+    box-shadow: 5px 5px 8px #838B83;	
+	}
+	div.plataforma3{	
+	margin-bottom: 0px;
+	margin-left: 350px;
+	height:110px;
+	width: 400px;
+	background: #FFE648;
+    box-shadow: 5px 5px 8px #838B83;	
+	}
+	
+	img.plataforma1{
+	height:110px;
+	width: auto;
+	float: right;
+	}
+	img.plataforma2{
+	height:110px;
+	width: auto;
+	float: left;
+	}
+	img.plataforma3{
+	height:110px;
+	width: auto;
+	float: right;
+	}
+	
+	a.botones{
+		display: block;	
+	    text-align: center;
+		text-decoration:none;
+		font-size: 50px;
+		color: #fff;
+		font-family:"Shadows Into Light Two";
+		font-weight:bold;
+	}
+	
+	
+	
+	/*--------------------------contato-----------------*/
+	div.blocolaranja{		
+				
+		width: 500px;
+		height:510px;
+		margin-top: 35px;
+		margin-left: 520px;
+		border-radius: 15px;
+		background:#FF8C00;		
+        box-shadow: 1px 4px 8px #838B10; 
+        text-align:center;		
+        	
+	}
+		
+	img.logocontato{
+	height: 27px;
+	float:left;
+	margin-left: 150px;
+	margin-top:15px;	
+}
+	
+	 p.contatotitulo{
+	font-family:"roboto";
+	font-size:20px;
+	font-weight:bold;
+	float: left;
+	margin-left:10px;
+	font-family:"Shadows Into Light Two";
+	color:  #8B4513;
+	
+ }
+	
+
+label.alinhado {
+	width: 70px ;
+	margin-bottom: 15px;	
+	display: inline-block; 
+	text-align: right;
+	padding-right: 5px;
+	font-family:"roboto";
+	color:  #8B4513;
+	
+}
+div.alinhado{
+	border: thin solid none;
+	width: 500px;
+	margin-top:30px;
+}
+
+select.alinhado{
+	margin-bottom: 15px;	
+	display: inline-block; 
+	text-align: center;
+	padding-right: 5px;
+}
+
+
+textarea{
+	height:100px;
+	margin-bottom: 10px;
+	display: inline-block;
+	vertical-align: top;	
+}
+
+textarea, input[type="text"], input[type="email"], select.alinhado{
+	width:200px;
+}
+button.submit {
+		font-size: 16px;
+		font-weight: bold;
+		height: 35px;
+		width:200px;
+		font-family:"roboto";
+	    color:  #8B4513;
+		background-color: #bcf784;
+		border-radius: 10px;
+		border-color: #bcf784;
+	}
+	
+/*---------------------------------Sobre nós-------------------------------------*/
+
+p.bemvindo{
+	font-family:"Shadows Into Light Two";
+	color:  #8B4513;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 55px;
+	font-weight: bold;
+	
+	
+}
+
+p.nozes{
+	font-family:"roboto";
+	color:  #8B4513;
+	font-size: 16px;
+	text-align: justify;	
+	margin:40px;
+margin-top: 20px;	
+}
+
+span.destaque {
+	font-family:"roboto";
+	color:  #FF8C00;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+
+img.nozes2{
+	height: 150px;
+	float: left;
+	margin-left:20px;
+	margin-right:20px;	
+}
+
+img.nozes{
+	height: 200px;
+	float: right;
+	margin-left:20px;
+	margin-right:20px;	
+}
+
+div.texto{
+	text-align: center;
+	height: 450px;
+	width: 85%;
+	float: left;
+	margin-bottom:0px;	
+}
+
+a.face{
+	float: left;
+	font-family:"roboto";
+	color:  #8B4513;
+	font-size: 16px;
+	font-weight: bold;	
+	margin-left: 300px;
+	margin-top: 30px;
+	text-decoration: none;
+}
+div.face{
+	text-align: left;
+	margin:0px;
+
+}
+img.face{
+	height:50px;
+	float: right;
+	margin-right: 430px;
+	
+}
+
+/*----------------------------------TERMOS DE USO E PRIVACIDADE-------------------------------------------*/
+div.menulado2{
+ width: 200px;
+ height: 575px; 
+ float: left;
+ background: #f15a24;
+ margin-right: 25px;
+ margin-bottom:25px
+}
+
+
+p.termo{
+	font-family:"roboto";
+	color: #8B4513;
+	font-size: 16px;
+	text-align: justify;	
+	margin:30px;
+}
+
+/*-------------------------------ESTABELECIMENTO------------------------------------------------------*/
+
+
+div.lateralesq{
+	margin-left: 40px;
+	width: 500px;
+	height: 400px;
+	text-align:center;
+	margin-top: 6px;	
+	float: left;
+	border-radius: 6px;
+    background: #FF8C00;
+}
+
+
+div.lateraldir{
+	
+	float: right;
+	width: 500px;
+	height: 400px;
+	text-align:center;
+	margin-top: 6px;
+}
+
+iframe{
+	
+	float: right;
+	width: 500px;
+	height: 400px;
+	text-align:center;
+	border-radius: 6px;
+}
+
+
+p.estab{
+	margin:30px;
+	font-size:18px;
+}
+
+
+div.branca{
+	text-align:center;
+	background: #fff;
+	height: 230px;
+	width: 400px;
+	margin-left: 50px;
+	border-radius: 7px;
+	padding-top: 9px;
+}
+
+p.pins{
+	margin:5px;
+	margin-top:15px;
+}
+
+img.legenda{
+	height:130px;
+	
+}
+
+
+

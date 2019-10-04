@@ -1,0 +1,75 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Herbívoros Anônimos </title> 
+  <link rel="stylesheet" href="formata-site.css">
+</head> 
+
+<body> 
+
+<!--Menu superior -->
+<nav id="menu">
+  <ul>
+      <li><a href="index.html" class="maior">Herbívoros Anônimos</a></li>
+      <li><a href="marca.html">Marca</a></li>
+      <li><a href="estabelecimentos.html">Estabelecimentos</a></li>
+    <li><a href="doacao.html">Doação</a></li>
+      <li><a href="contato.html">Contato</a></li>
+    <li><a href="sobrenos.html">Sobre nós</a></li>
+  </ul>
+</nav> 
+  
+
+<!--Bloco do menu lateral -->
+
+<div  class="menulado">
+<nav id="menulado">
+    <ul>
+	    <li><a href="contato.php" class="marcamaior">Contato</a></li> <br>
+        <li><a href="contato.php">Mensagem</a></li> 
+        
+    </ul>
+  </nav>  
+</div>
+
+
+
+<body> 
+<div class="blocolaranja">
+
+<img class="logocontato" src="./img/logo.png" >
+<p class="contatotitulo"> Entre em contato</p> <br><br>
+
+<div class="alinha"> 
+
+<form action="" method="post">   
+      <div class="alinhado"> <br>
+		<label class="alinhado"> Nome: </label>
+		<input type="text" name="nome" autofocus> <br> <br>
+		<label class="alinhado"> E-mail: </label> 
+		<input type="email" name="email"> <br /> <br />
+		<label class="alinhado"> Telefone: </label> 
+		<input type="text" name="telefone"> <br> <br>
+		<label class="alinhado"> Assunto: </label> 
+		<select class="alinhado" name="assunto">
+			<option>- Selecione -</option>
+			<option>Dúvida</option>
+			<option>Indicação de estabelecimento</option>
+			<option>Indicação de produto</option>
+			<option>Quero ser voluntária/o</option>
+		</select> <br> <br>
+		<label class="alinhado"> Mensagem: </label>
+		<textarea name="mensagem"></textarea> <br> <br>
+		
+
+		<button class="submit"type="submit" name="enviar">Enviar</button>
+		</div>
+</form>	
+
+
+</div>
+
+    
+</body> 
+</html> 
